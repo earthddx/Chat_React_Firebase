@@ -1,0 +1,79 @@
+.sidebar {
+  background-color: var(--chat-color);
+  border-top: 1px solid var(--chat-border-color);
+  max-width: 260px;
+  color: white;
+  flex: 0.3;
+  overflow-y: auto;
+}
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar__logo > h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.sidebar > hr {
+  margin-bottom: 10px;
+  border: 1px solid var(--chat-border-color);
+}
+
+.sidebar__header {
+  display: flex;
+  border-bottom: 1px solid var(--chat-border-color);
+  padding-bottom: 10px;
+  padding: 13px;
+}
+
+.sidebar__info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__info > h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sidebar__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__avatar > .MuiAvatar-root {
+  position: relative !important;
+  cursor: pointer;
+}
+
+.sidebar__signOut {
+  position: absolute;
+  top: 120px;
+  
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar__signOut > p {
+  font-size: 12px;
+  padding: 4px 20px;
+  background-color: rgb(139, 8, 8);
+  border-radius: 4px;
+}
+
+.sidebar__signOut > p:hover {
+  background-color: rgb(122, 33, 22);
+  color: black;
+}
+
+.sidebar__signOut > hr {
+  border: 1px solid lightgray;
+}

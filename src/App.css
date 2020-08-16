@@ -1,0 +1,21 @@
+body {
+    --chat-color: #202020;
+    --chat-border-color: #3a3a3a;
+    overflow: hidden;
+}
+
+.app__body {
+    display: flex;
+    height: 100vh;
+}
+
+.app__welcome{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.app__welcome > h1 > span {
+    color: rgb(0, 119, 255);
+}
+
